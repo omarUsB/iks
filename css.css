@@ -1,0 +1,53 @@
+button {
+  border: none;
+  font-size: 15px;
+  box-shadow: 8px 3px 5px rgba(0, 0, 0, 0.179);
+  line-height: 0;
+}
+
+button.ineed {
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+}
+.task {
+  display: flex;
+  background-color:rgb(228, 222, 220);
+  border-radius: 0.5pc;
+  padding: 5px;
+  border-bottom: solid black 1px;
+  border-top: solid black 1px;
+  margin-bottom: 10px;
+}
+.task:hover {
+  box-shadow: 8px 3px 15px rgba(97, 97, 97, 0.84);
+  transition: 350ms;
+}
+h2 {
+  font-family: "Amiri", serif;
+}
+.done {
+  background-color: #59e259;
+}
+#x{
+  font-size: 50px;
+  font-weight: 350;
+  background-image: linear-gradient(to left, #3b438c, #1b59aa);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-family: fantasy;
+}
+#y{
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 15px;
+color: wheat;
+font-family: cursive;
+
+}
+#x:hover{
+  box-shadow: 0px 5px 10px 0px #000000;
+  border-radius: 1pc;
+}
